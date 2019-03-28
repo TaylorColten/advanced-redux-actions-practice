@@ -48,7 +48,7 @@ export function setIsLoading(isLoading){
 export function setTemp(temp){
   return {
     type: "SET_TEMP",
-    value: city
+    value: temp
   }
 }
 
